@@ -16,4 +16,9 @@ def process_form_data():
     print(input_data)
     return jsonify(response_data)
 
+@app.route('/api/getNews',methods=['GET'])
+def get_news():
+    #TODO: write subprocess to run scrapper
+    a=2
+
 app.run(debug=True)
