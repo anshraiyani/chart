@@ -102,6 +102,12 @@ body{
     margin: 10px 2px;
     padding: 5px;
     border-radius: 5px;
+    text-decoration: none;
+}
+
+.news-card-container:hover{
+    text-decoration: underline;
+    font-weight: 600;
 }
 
 .news-link{
@@ -117,5 +123,7 @@ body{
 }
 
 .news-text{
+    text-decoration: none;
     font-size: 15px;
+    color: black;
 }

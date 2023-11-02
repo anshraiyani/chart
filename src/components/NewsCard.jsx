@@ -2,10 +2,10 @@ import React from 'react'
 
 function NewsCard({title,link}) {
   return (
-    <div className='news-card-container'>
+    <a className='news-card-container' target='_blank' href={`https://economictimes.indiatimes.com/${link}`}>
         <p className='news-text'>{title}</p>
         <a className='news-link' href={`https://economictimes.indiatimes.com/${link}`} target='_blank'>Read More</a>
-    </div>
+    </a>
   )
 }
 
